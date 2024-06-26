@@ -1,0 +1,35 @@
+{
+  "a familia buscape": [
+    { "link": "/api?pasta=filmes&search=a-familia-buscape", "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRhvAvA9kTqprzYlFzRTGZJcnkhy_P6iOqHH7bPsp4jSnxBL08", "title": "A Familia Buscape" }
+  ],
+  "henry danger": [
+    { "link": "/api?pasta=series&search=henry-danger", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaDkgto7u3mdeXVRA_9h4isZ_1niemPJ-mgzURsYqE7xooCOeF", "title": "Henry Danger" }
+  ],
+  "kid danger": [
+    { "link": "/api?pasta=series&search=henry-danger", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaDkgto7u3mdeXVRA_9h4isZ_1niemPJ-mgzURsYqE7xooCOeF", "title": "Henry Danger" }
+  ],
+  "elementos": [
+    { "link": "/api?pasta=filmes&search=elementos", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdab6m1R38wYdsAjwcuGacJ80G27bD5oV0HlVR6aJoTS_3S3v", "title": "Elementos" }
+  ],
+  "angry birds 2": [
+    { "link": "/api?pasta=filmes&search=angry-birds-2", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsVBHUIdbSf8sseeRBcNsVub7X7yFWHqG1lj1YbbXws5S1DWA5rHsN5qa6&s=10", "title": "Angry Birds 2: O Filme" }
+  ],
+  "angry birds 2: o filme": [
+    { "link": "/api?pasta=filmes&search=angry-birds-2", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsVBHUIdbSf8sseeRBcNsVub7X7yFWHqG1lj1YbbXws5S1DWA5rHsN5qa6&s=10", "title": "Angry Birds 2: O Filme" }
+  ],
+  "O segredo dos animais": [
+    { "link": "/api?pasta=filmes&search=o-segredo-dos-animais", "img": "https://br.web.img3.acsta.net/medias/nmedia/18/94/12/17/20304560.jpg", "title": "O Segredo dos Animais" }
+  ],
+  "baki o campeao": [
+    { "link": "/api?pasta=animes&search=baki-o-campeao", "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT1YX-PAJBEnnCJstjMPAFI84OEqJGkGIJuxMu2N1vTnwQISIUV", "title": "Baki – O Campeão" }
+  ],
+  "Gato de Botas 2: O Último Pedido": [
+    { "link": "/api?pasta=filmes&search=GTDBOTS2OULTMPDIDO", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3H7mM08s95qX28WTjSo12rbqJy7EtQLrheQ&usqp=CAU", "title": " Gato de Botas 2: O Último Pedido" }
+  ],
+  "Gato de Botas 2": [
+  { "link": "/api?pasta=filmes&search=GTDBOTS2OULTMPDIDO", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3H7mM08s95qX28WTjSo12rbqJy7EtQLrheQ&usqp=CAU", "title": " Gato de Botas 2: O Último Pedido" }
+  ],
+  "nome": [
+    { "link": "link", "img": "link-da-img", "title": "titulo" }
+  ]
+}

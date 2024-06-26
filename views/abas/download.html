@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Assista a filmes e séries gratuitamente, somente aqui no ZenFlix!">
+<title>ZenFlix</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: url(/icons/bg_body.png);
+}
+
+.image-container {
+    background: url('/icons/footer-bg.jpg') no-repeat center center;
+    background-size: 100% auto;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: none;
+    font-weight: bold;
+}
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-images {
+    text-align: center;
+}
+
+.img-film-container {
+    display: inline-block;
+    margin: 2px; /* Espaço entre as imagens */
+}
+
+.img-film-container img {
+    width: 230px; /* Largura das imagens */
+    height: auto;
+    border-radius: 10px;
+}
+
+.bgg {
+    border-left: 5px solid red;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding-left: 10px;
+    height: auto;
+    color: silver;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 15px;
+    width: auto;
+}
+
+.red-button {
+    padding: 15px 40px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.red-button:hover {
+    background-color: #b2070a;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .image-container {
+        height: 250px;
+    }
+    .img-film-container img {
+        width: 140px; /* Largura das imagens para telas menores */
+        height: auto;
+        border-radius: 10px;
+    }
+    .red-button {
+        padding: 10px 20px;
+        border: 1px solid white;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="image-container">
+<div class="image-title">
+<a href="/" style="text-decoration: none;"><h1 style="color: #e50914;">ZenFlix</h1></a>
+<p style="color: #fff;">VERÇÃO: 1.2023.1</p>
+</div>
+</div>
+<div class="container">
+
+<p style="color: silver;font-size: 20px;">Faça o download do ZenFlix agora e desfrute gratuitamente do nosso extenso catálogo na palma da sua mão! Não perca tempo, faça o download já.</p>
+
+<div class="bgg">
+<p style="font-size: 20px;">Algumas prints do aplicativo estão abaixo:</p>
+</div>
+<p style="color: white;font-size: 20px;font-weight: bold;"><b style="color: red;font-size: 20px;font-weight: bold;">Atenção:</b> Clique nas imagems para deixar em tela cheia para você ver melhor</p>
+<div class="center-images">
+<!-- Adicione um atributo onclick para cada imagem para ativar a tela cheia -->
+<div class="img-film-container">
+<img src="/prints/print3.png" alt="print 1">
+</div>
+<div class="img-film-container">
+<img src="/prints/print2.png" alt="print 2">
+</div>
+<div class="img-film-container">
+<img src="/prints/print1.png" alt="print 3">
+</div>
+<div class="img-film-container">
+<img src="/prints/print4.png" alt="print 4">
+</div>
+<div class="img-film-container">
+<img src="/prints/print5.png" alt="print 5">
+</div>
+<div class="img-film-container">
+<img src="/prints/print6.png" alt="print 6">
+</div>
+</div>
+
+<div class="bgg">
+<p style="font-size: 20px;">O download do aplicativo está disponível exclusivamente para:</p>
+</div>
+
+<p style="color: white;font-size: 20px;font-weight: bold;">ANDROID | TV-BOX | ANDROID-TV!</p>
+
+<a class="red-button" href="/apks/ZenFlix_1.2023.1.apk" download><b>CLIQUE PARA BAIXAR!</b></a>
+
+<p style="color: silver;font-size: 20px;">O download do aplicativo está disponível acima. Embora não ofereçamos um tutorial de instalação, você pode facilmente encontrar guias no YouTube, por exemplo, pesquisando "como instalar APK no Android".</p>
+
+<script>
+// Função para alternar entre tela cheia e tamanho original da imagem
+            function toggleFullscreen(imageElement) {
+                if (imageElement.requestFullscreen) {
+                    if (document.fullscreenElement) {
+                        document.exitFullscreen();
+                    } else {
+                        imageElement.requestFullscreen();
+                    }
+                } else if (imageElement.mozRequestFullScreen) {
+                    if (document.mozFullScreenElement) {
+                        document.mozCancelFullScreen();
+                    } else {
+                        imageElement.mozRequestFullScreen();
+                    }
+                } else if (imageElement.webkitRequestFullscreen) {
+                    if (document.webkitFullscreenElement) {
+                        document.webkitExitFullscreen();
+                    } else {
+                        imageElement.webkitRequestFullscreen();
+                    }
+                }
+            }
+
+            // Adicione um evento de clique para cada imagem
+            const images = document.querySelectorAll(".img-film-container img");
+            images.forEach((image) => {
+                image.onclick = () => toggleFullscreen(image);
+            });
+        </script>
+    </div>
+</body>
+</html>
